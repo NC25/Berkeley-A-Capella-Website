@@ -1,0 +1,183 @@
+body {
+  background-color: #003366; /* Dark blue background */
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.section-background {
+  background-image: url('../IMG_4850.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  font-size: 72px;
+  color: white; /* Yellow color for the 'Back' */
+  font-family: 'Brush Script MT', sans-serif;
+  text-align: center;
+}
+h2 {
+  font-size: 48px;
+  color: #00cccc; /* Cyan color for 'Welcome' */
+}
+.event-details {
+  border: 2px solid #ffcc00; /* Yellow border */
+  color: #ffcc00; /* Yellow text color */
+  font-size: 24px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.note {
+  font-size: 24px;
+  margin-top: 50px;
+}
+.music-notes {
+  font-size: 48px;
+  color: #ff6666; /* Light red color for music notes */
+}
+
+.about-section {
+  position: relative; /* Set the .about-section as the relative container */
+  /* Other styles remain unchanged */
+}
+
+
+.events {
+  position: absolute; /* Absolute position for the .events div */
+  bottom: 0; /* Align to the bottom */
+  left: 0; /* Align to the left */
+  width: 100%; /* Optional: to make the div stretch across the entire section width */
+  background-color: #e2e2e2;
+  padding: 10px;
+  font-weight: bold;
+  box-sizing: border-box; /* Makes sure padding is included in the width */
+}
+
+.follow-section {
+  display: flex; /* Creates a flex container */
+  align-items: center; /* Centers items vertically */
+  justify-content: center; /* Centers items horizontally */
+  background: #003366; /* Background color for the whole section */
+  padding: 50px 0; /* Padding around the section */
+}
+.follow-text {
+  flex: 1; /* Assigns flex grow factor */
+  padding: 20px;
+  background-color: #004d99; /* Dark blue background */
+  color: #fff; /* White text color */
+  text-align: center; /* Centers text */
+  font-family: 'Arial', sans-serif;
+}
+.follow-text h1 {
+  font-size: 3rem; /* Large font size for the heading */
+  margin-bottom: 20px;
+}
+.follow-text p {
+  font-size: 1.5rem; /* Medium font size for the paragraph */
+  margin-bottom: 20px;
+}
+.instagram-preview {
+  flex: 1; /* Assigns flex grow factor */
+  padding: 20px;
+  background-color: #003366; /* Light grey background */
+  display: flex; /* Creates a flex container */
+  flex-direction: column; /* Stacks children vertically */
+  align-items: center; /* Centers items horizontally */
+
+}
+.instagram-preview img {
+  max-width: 30%; /* Ensures images are not larger than their container */
+  height: auto; /* Keeps the aspect ratio of the images */
+  margin-bottom: 20px; /* Space below each image */
+}
+.instagram-preview a {
+  text-decoration: none; /* Removes underline from links */
+  color: white; /* Dark blue text color for the link */
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid #003366; /* Dark blue border for the button */
+  border-radius: 5px; /* Rounded corners for the button */
+
+}
+
+
+.gallery-container {
+  display: flex;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  gap: 10px; /* Adds a gap between images */
+  padding: 20px; /* Adds padding inside the container */
+  background-color: #333; /* Dark background for contrast */
+  width: 25%;
+  height: 500px;
+}
+.gallery-container img {
+  flex: 0 0 auto; /* Prevents the images from stretching */
+  object-fit: cover; /* Ensures the images cover the area without stretching */
+}
+
+.flyer{
+  width: 1200px
+}
+
+.video-gallery-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 10px;
+  padding: 20px;
+  background-color: #333;
+  max-width: 600px; /* Adjust this value based on your layout */
+  margin: 0 auto;
+}
+
+.video-gallery-item {
+  flex: 0 0 auto;
+  width: 300px; /* Set the width of each video */
+  height: auto; /* Height will be determined by the aspect ratio */
+}
+
+.video-gallery-item iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.members-container {
+  max-width: 1200px; /* Adjust this width based on your layout */
+  margin: auto; /* Center the container */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* This will space out the member items evenly */
+  gap: 10px; /* Spacing between items */
+}
+.member-item {
+  width: 30%; /* Each member takes up less than a third of the container width */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds some shadow for depth */
+  margin-bottom: 20px; /* Space at the bottom of each member item */
+  text-align: center; /* Center the text */
+}
+.member-item img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Prevents bottom margin/padding on images */
+}
+.member-name {
+  margin-top: 10px; /* Space between image and name */
+  font-size: 1.2em;
+  color: #000; /* Name color */
+}
+.member-title {
+  color: #555; /* Title color */
+  font-size: 1em;
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.member-item p {
+  color: white; /* Title color */
+  font-size: 1em;
+  margin-bottom: 10px; /* Space below the title */
+  font-family: 'Tahoma', sans-serif;
+}
