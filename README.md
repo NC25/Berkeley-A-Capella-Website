@@ -1,1 +1,1 @@
-# proj2
+I created a dynamic user interface using React to provide a club website for the Berkeley A Capella Group. This website includes information about the members, a photo gallery that users can scroll through, and a video gallery.
